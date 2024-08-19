@@ -11,7 +11,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-
+// 19/08/24 - Anand - Updated the Sysout message
 public class RegisterDemoFlow {
 
 	public WebDriver driver;
@@ -74,7 +74,7 @@ public class RegisterDemoFlow {
 
 		// Maximize the window
 		driver.manage().window().maximize();
-		System.out.println();
+		System.out.println("DevOps Process Implemented");
 		System.out.println("Application is launched successfully");
 		
 
